@@ -14,3 +14,4 @@ jobs:
         server: ftp.jupacsoftware.eu
         username: jupacsoftw
         password: ${{ secrets.FTP_PASSWORD }}
+        server-dir: www/test/
