@@ -14,7 +14,5 @@ jobs:
         server: ftp.jupacsoftware.eu
         username: ${{ secrets.FTP_USERNAME }}
         password: ${{ secrets.FTP_PASSWORD }}
-        port: 10222
         protocol: ftp
         server-dir: www/test/
-        log-level: minimal
